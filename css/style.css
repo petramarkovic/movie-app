@@ -1,0 +1,97 @@
+body {
+    background-color: #000;
+}
+
+a {
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+
+h2 {
+    color: #F3969A;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 30px;
+    color: #F3969A;
+    font-family: 'Poiret One', cursive;
+    padding: 10px;
+    font-weight: bold;
+}
+
+h5 {
+    color: #fff;
+    padding: 10px;
+}
+
+ul {
+    padding-left: 10px;
+    background-color: #000;
+}
+
+svg {
+    width: 100%;
+    margin-bottom: 100px;
+    background-color: #000;
+}
+
+.list-group-item {
+    background-color: #000;
+    border: #F3969A 1px solid;
+    color: #fff;
+    font-family: 'Poiret One', cursive;
+}
+
+.well {
+    padding: 10px;
+    color: #fff;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+}
+
+#searchText {
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#searchText:focus {
+    border: 5px solid #F3969A;
+    box-shadow: 3px 3px 3px 3px #F3969A;
+
+}
+
+.jumbotron {
+    background-color: #000;
+}
+
+#movies img {
+    width: 80%;
+    box-shadow: 3px 3px 3px 3px #F3969A;
+
+}
+
+#movie img {
+    width: 100%;
+    box-shadow: 3px 3px 3px 3px #F3969A;
+    margin-top: 50px;
+}
+
+#movies img:hover {
+    transform: scale(1.3);
+    transition: transform 1s ease-in-out;
+}
+
+@media(min-width:960px){
+    #movies .col-md-3 .well {
+        height: 390px;
+    }
+
+    #movies .col-md-3 img {
+        height: 240px;
+    }
+}
